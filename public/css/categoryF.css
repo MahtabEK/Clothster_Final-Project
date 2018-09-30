@@ -1,0 +1,1264 @@
+@font-face {
+    font-family: "Shabnam";
+    src: url("shabnam/Shabnam.eot");
+    src: url("shabnam/Shabnam.eot?#iefix") format('embedded-opentype'),
+    url("shabnam/Shabnam.woff") format('woff'),
+    url("shabnam/Shabnam.ttf") format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Shabnam-Bold";
+    src: url("shabnam/Shabnam-Bold.eot");
+    src: url("shabnam/Shabnam-Bold.eot?#iefix") format('embedded-opentype'),
+    url("shabnam/Shabnam-Bold.woff") format('woff'),
+    url("shabnam/Shabnam-Bold.ttf") format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Shabnam-Light";
+    src: url("shabnam/Shabnam-Light.eot");
+    src: url("shabnam/Shabnam-Light.eot?#iefix") format('embedded-opentype'),
+    url("shabnam/Shabnam-Light.woff") format('woff'),
+    url("shabnam/Shabnam-Light.ttf") format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Shabnam-digit";
+    src: url("shabnam/ShabnamFD.eot");
+    src: url("shabnam/ShabnamFD.eot?#iefix") format('embedded-opentype'),
+    url("shabnam/ShabnamFD.woff") format('woff'),
+    url("shabnam/ShabnamFD.ttf") format('truetype');
+    font-weight: normal;
+}
+
+.navigation{
+    position:absolute;
+    top: 2%;
+    right:0%;
+    width: 100%;
+    height: 9%;
+}
+
+#navigation_member_button, #navigation_login_button{
+    position:absolute;
+    top: 39%;
+    height: 25px;
+    width: 85px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-family: "Shabnam";
+    font-size: 12px;
+}
+
+#navigation_member_button{
+    right: 8%;
+    color: 	#808080;
+    background-color: #ffffff;
+    border: 1px solid #808080;
+}
+
+#navigation_member_button:hover {
+    color: 	blue;
+    border: 1px solid #4d4dff;
+}
+
+#navigation_login_button{
+    right: 15%;
+    color: 	#ffffff;
+    background-color: #808080;
+    border-color: transparent;
+    padding-bottom: 2px;
+}
+
+#navigation_login_button:hover {
+    background-color: #4d4dff;
+}
+
+#clothster{
+    position: absolute;
+    top: 5%;
+    right: 46%;
+    height: 27px;
+    width: 105px;
+}
+
+#search {
+    position:absolute;
+    top: 38%;
+    left: 8%;
+    background-color:white;
+    height: 23px;
+    width: 240px;
+    font-size: 9px;
+    color: black;
+    border-radius: 13px;
+    border: 1px solid #808080;
+}
+
+#search:hover{
+    border: 1px solid #4d4dff;
+}
+
+.container:hover .magnifier2 {
+    opacity: 1;
+}
+
+.magnifier{
+    position:absolute;
+    top: 42%;
+    left: 8.75%;
+    filter: grayscale(100%);
+
+
+}
+
+.magnifier2 {
+    position:absolute;
+    top: 42%;
+    left: 8.75%;
+    opacity: 0;
+}
+
+#user_name, #basket, #maintain, #number {
+    position: absolute;
+    top: 45%;
+    right: 15%;
+    font-family: "Shabnam";
+    font-size: 12px;
+}
+
+#arrow_name {
+    position: absolute;
+    top: 50%;
+    right: 19.5%;
+    height: 20%;
+}
+
+#basket {
+    right: 21.5%;
+    top: 20%;
+}
+
+#bag {
+    position: absolute;
+    top: 38%;
+    right: 25.2%;
+}
+
+#maintain {
+    right: 27.2%;
+    top: 20%;
+}
+
+#number {
+    top: 33%;
+    right: 25.7%;
+    color: white;
+    background-color: #ff80bf;
+    border-radius: 50%;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: "Shabnam-digit";
+}
+
+#maintain_image {
+    position: absolute;
+    top: 36%;
+    right: 32.9%;
+    height: 50%;
+}
+
+.block_buttons{
+    position:absolute;
+    top: 13%;
+    right:0%;
+    width: 100%;
+    height: 20%;
+}
+
+#title1, #title2, #title3, #title4, #title5, #title6 {
+    position:absolute;
+    top: 1px;
+    font-family: "Shabnam";
+    font-size: 11px;
+    color: 	#808080;
+}
+
+#title1 {
+    right: 320px;
+}
+
+#title1:hover {
+    border-bottom: 4px solid #4d4dff;
+    color: #1a1a1a;
+}
+
+#title2 {
+    right: 445px;
+}
+
+#title2:hover {
+    border-bottom: 4px solid #4d4dff;
+    color: #1a1a1a;
+}
+
+#title3 {
+    right: 570px;
+}
+
+#title3:hover {
+    border-bottom: 4px solid #4d4dff;
+    color: #1a1a1a;
+}
+
+#title4 {
+    right: 695px;
+}
+
+#title4:hover {
+    border-bottom: 4px solid #4d4dff;
+    color: #1a1a1a;
+}
+
+#title5 {
+    right: 820px;
+}
+
+#title5:hover {
+    border-bottom: 4px solid #4d4dff;
+    color: #1a1a1a;
+}
+
+#title6 {
+    right: 945px;
+}
+
+#title6:hover {
+    border-bottom: 4px solid #4d4dff;
+    color: #1a1a1a;
+}
+
+#nav_line {
+    position: absolute;
+    top: 25px;
+    right: 8%;
+    width: 85%;
+}
+
+#block1, #block2, #block3, #block4, #block5, #block6 {
+    position: absolute;
+    top: 45px;
+    font-family: "Shabnam";
+    font-size: 11px;
+    text-align: center;
+    width: 152px;
+    padding-bottom: 3px;
+    padding-top: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#block2:hover{
+    background-color: #4d4dff;
+}
+
+#block3:hover{
+    background-color: #4d4dff;
+}
+
+#block4:hover{
+    background-color: #4d4dff;
+}
+
+#block5:hover{
+    background-color: #4d4dff;
+}
+
+#block6:hover{
+    background-color: #4d4dff;
+}
+
+#block2, #block3, #block4, #block5, #block6 {
+    color: 	#bfbfbf;
+    border: 1px solid #808080;
+}
+
+#block1 {
+    right: 186.5px;
+    color: 	blue;
+    border: 1px solid blue;
+}
+
+#block2 {
+    right: 349.5px;
+}
+
+#block3 {
+    right: 514.5px;
+
+}
+
+#block4 {
+    right: 679.5px;
+}
+
+#block5 {
+    right: 844.5px;
+}
+
+#block6 {
+    right: 1009.5px;
+}
+
+#block1_icon, #block2_icon, #block3_icon, #block4_icon, #block5_icon, #block6_icon {
+    position: absolute;
+}
+
+#block1_icon{
+    right: 240px;
+    width: 42px;
+    height: 34px;
+    top: 51px;
+}
+
+#block2_icon {
+    right: 408px;
+    width: 35px;
+    height: 30px;
+    top: 55px;
+}
+
+#block3_icon {
+    right: 576px;
+    width: 30px;
+    height: 35px;
+    top: 52px;
+}
+
+#block4_icon {
+    right: 745px;
+    width: 25px;
+    height: 26px;
+    top: 60px;
+}
+
+#block5_icon {
+    right: 907px;
+    width: 30px;
+    height: 32px;
+    top: 56px;
+}
+
+#block6_icon {
+    right: 1070px;
+    width: 30px;
+    height: 30px;
+    top: 56px;
+}
+
+#slider_border{
+    position: absolute;
+    top: 19.5%;
+    left:12%;
+    border: 1px solid #e6e6e6;
+    height: 30%;
+    width: 76%;
+}
+
+/*.mySlides {display: none}*/
+
+#slideshow-container {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    border: 1.1px solid #b3b3b3;
+    height: 91%;
+    width: 95.9%;
+}
+
+.image_slide {
+    position: absolute;
+    height: 92%;
+    width: 100%;
+}
+/* Next & previous buttons */
+.prev, .next {
+    position: absolute;
+    top:25%;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* Caption text */
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+#dots{
+    position: absolute;
+    top: 87.5%;
+    left: 48%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 0px;
+    background-color: white;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 0.5px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+#slider_buttom {
+    position: absolute;
+    top: 105%;
+    left: 2%;
+    border: 1.1px solid #b3b3b3;
+    height: 70%;
+    width: 95.9%;
+}
+
+#image1, #image2, #image3 {
+    position: absolute;
+    top: -1%;
+    right: -0.10%;
+    height: 82%;
+}
+
+#image2 {
+    right: 33.20%;
+}
+
+#image3 {
+    right: 66.5%;
+}
+
+#men_text, #women_text, #children_text {
+    color: 	#f2f2f2;
+    position:absolute;
+    top: 69%;
+    right: -0.10%;
+    height: 24%;
+    width: 33.5%;
+    font-family: "Shabnam";
+    font-size: 16px;
+    background-color: #a6a6a6;
+    text-align: center;
+    padding-top: 9px;
+}
+
+#women_text {
+    right: 33.23%;
+    border-right: 2px solid  #999999;
+}
+
+#children_text {
+    right: 66.45%;
+    border-right: 2px solid  #999999;
+}
+
+#buy_best {
+    position: absolute;
+    top: 76.5%;
+    right: 40%;
+}
+
+#buy_best_text {
+    font-size: 17px;
+    font-family: "Shabnam";
+    color: #262626;
+}
+
+.footer {
+    position:absolute;
+    left: 0;
+    bottom: -185%;
+    width: 100%;
+    height: 28%;
+    background-color: #f5f5f5;
+}
+
+#head1, #head2, #head3, #head4 {
+    color: 	#696969;
+    position:absolute;
+    top: 14.5%;
+    font-family: "Shabnam";
+}
+
+#head1 {
+    right: 16%;
+    font-size: 14px;
+}
+
+#head2 {
+    right: 31%;
+    font-size: 14px;
+}
+
+#head3 {
+    right: 46%;
+    font-size: 15px;
+}
+
+#head4{
+    right: 66.5%;
+    font-size: 11px;
+    top: 17%;
+}
+
+#head11, #head12, #head13, #head14, #head21, #head22 {
+    color: 	#696969;
+    position:absolute;
+    font-family: "Shabnam";
+    font-size: 12px;
+}
+
+#head11:hover {
+    color: #4d4dff;
+}
+
+#head12:hover {
+    color: #4d4dff;
+}
+
+#head13:hover {
+    color: #4d4dff;
+}
+
+#head14:hover {
+    color: #4d4dff;
+}
+
+#head21:hover {
+    color: #4d4dff;
+}
+
+#head22:hover {
+    color: #4d4dff;
+}
+
+#head11, #head12, #head13, #head14 {
+    right: 16%;
+}
+
+#head21, #head22 {
+    right: 31%;
+
+}
+#head11, #head21 {
+    top: 22.5%;
+}
+
+#head12, #head22 {
+    top: 33%;
+}
+
+#head13 {
+    top: 44%;
+}
+
+#head14 {
+    top: 55.5%;
+}
+
+.twitter1, .twitter12, .twitter2, .twitter22, .google_plus1, .google_plus12, .facebook1, .facebook12, .google_plus2, .google_plus22, .facebook2, .facebook22 {
+    position: absolute;
+}
+
+.twitter1, .twitter2 {
+    width: 35px;
+    height: 32px;
+    right: 50%;
+    filter: contrast(0%) brightness(70%);
+}
+
+.twitter12, .twitter22 {
+    width: 35px;
+    height: 32px;
+    right: 50%;
+    opacity: 0;
+}
+
+.google_plus1, .google_plus2, .google_plus12, .google_plus22 {
+    width: 33px;
+    height: 31px;
+    right: 52.9%;
+}
+
+.facebook1, .facebook12, .facebook2, .facebook22 {
+    width: 33px;
+    height: 31px;
+    right: 55.8%;
+}
+
+.twitter1, .twitter12 {
+    top: 30%;
+}
+
+.twitter2, .twitter22 {
+    top: 53.5%;
+}
+
+.google_plus1, .google_plus12, .facebook1, .facebook12{
+    top: 30.5%;
+}
+
+.google_plus2, .google_plus22, .facebook2, .facebook22{
+    top: 54.5%;
+}
+
+.google_plus1, .facebook1, .google_plus2, .facebook2{
+    filter: contrast(0%) brightness(70%);
+}
+
+.google_plus12, .facebook12, .google_plus22, .facebook22 {
+    opacity: 0;
+}
+
+.container1:hover .twitter12 {
+    opacity: 1;
+}
+
+.container2:hover .google_plus12 {
+    opacity: 1;
+}
+
+.container3:hover .facebook12 {
+    opacity: 1;
+}
+
+.container4:hover .twitter22 {
+    opacity: 1;
+}
+
+.container5:hover .google_plus22 {
+    opacity: 1;
+}
+
+.container6:hover .facebook22 {
+    opacity: 1;
+}
+
+#section1 {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    width: 90%;
+    height: 20%;
+}
+
+#favorite {
+    position: absolute;
+    top: 0%;
+    right: 17%;
+    font-family: "Shabnam";
+    font-size: 20px;
+
+}
+
+#slider_border1 {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    height: 180%;
+    width: 81%;
+}
+
+.prev1, .next1 {
+    position: absolute;
+    top: 28%;
+    height: 20%;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+    right: -1%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev1 {
+    left: -2.5%;
+}
+
+
+.pack1, .pack2, .pack3, .pack4, .pack5, .pack6, .pack7, .pack8 {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    border: 0.5px solid #8c8c8c;
+    width: 10%;
+    height: 60%;
+}
+
+.pack2{
+    right: 16%;
+}
+
+.pack3{
+    right: 28%;
+}
+
+.pack4{
+    right: 40%;
+}
+
+.pack5{
+    right: 52%;
+}
+
+.pack6{
+    right: 64%;
+}
+
+.pack7{
+    right: 76%;
+}
+
+.pack8{
+    right: 88%;
+}
+
+.pack_img1, .pack_img2, .pack_img3, .pack_img4, .pack_img5, .pack_img6, .pack_img7, .pack_img8 {
+    position: absolute;
+    height: 65%;
+    top: 17%;
+    right: 4%;
+}
+
+.percentage1, .percentage2, .percentage3, .percentage4, .percentage5, .percentage6, .percentage7, .percentage8 {
+    position: absolute;
+    right: -15%;
+    top: -20%;
+    color: black;
+    background-color: #ff66a3;
+    border-radius: 50%;
+    padding-bottom: 11%;
+    padding-top: 11%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.brand_name1, .brand_name2, .brand_name3, .brand_name4, .brand_name5, .brand_name6, .brand_name7, .brand_name8 {
+    position: absolute;
+    bottom: -18%;
+    right: 25%;
+    font-size: 10px;
+}
+
+.brand_name2 {
+    right: 33%;
+}
+
+.brand_name3 {
+    right: 21%;
+}
+
+.brand_name4 {
+    right: 27%;
+}
+
+.brand_name5 {
+    right: 31%;
+}
+
+.brand_name6 {
+    right: 28%;
+}
+
+.brand_name7 {
+    right: 33%;
+}
+
+.brand_name8 {
+    right: 33%;
+}
+
+.product_name1, .product_name2, .product_name3, .product_name4, .product_name5, .product_name6, .product_name7, .product_name8 {
+    position: absolute;
+    bottom: -35%;
+    right: 19%;
+    color: #cccccc;
+    font-family: "Shabnam";
+    font-size: 12px;
+}
+
+.product_name2 {
+    right: 38%;
+}
+
+.product_name3 {
+    right: 30%;
+}
+
+.product_name4 {
+    right: 35%;
+}
+
+.product_name5 {
+    right: 38%;
+}
+
+.product_name6 {
+    right: 38%;
+}
+
+.product_name7 {
+    right: 25%;
+}
+
+.product_name8 {
+    right: 33%;
+}
+
+.before_off1, .after_off1, .before_off2, .after_off2, .before_off3, .after_off3, .before_off4, .after_off4, .before_off5, .after_off5, .before_off6, .after_off6, .before_off7, .after_off7, .before_off8, .after_off8 {
+    position: absolute;
+    bottom: -42%;
+    right: 20%;
+    font-size: 10px;
+    font-family: "Shabnam-digit";
+}
+
+.after_off1, .after_off2, .after_off3, .after_off4, .after_off5, .after_off6, .after_off7, .after_off8 {
+    right: 52%;
+    color: #ff80bf;
+    bottom: -49%;
+}
+
+.before_off2, .before_off3, .before_off4, .before_off5, .before_off6, .before_off7, .before_off8 {
+    right: 25%;
+}
+
+.after_off2, .after_off3, .after_off4, .after_off5, .after_off6, .after_off7, .after_off8 {
+    right: 58%;
+}
+
+.toman1 {
+    position: absolute;
+    bottom: -60%;
+    right: 38%;
+    font-size: 10px;
+    font-family: "Shabnam";
+    color: #ff80bf;
+}
+
+.toman11 {
+    position: absolute;
+    bottom: -60%;
+    right: 30%;
+    font-size: 10px;
+    font-family: "Shabnam";
+    color: #ff80bf;
+}
+
+/*.mySlides1 {display: none}*/
+
+#banner1 {
+    position: absolute;
+    top: 97%;
+    right: 0%;
+    width: 100%;
+    height: 36%;
+}
+
+#banner1_image {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#section2 {
+    position: absolute;
+    top: 132%;
+    right: 2%;
+    width: 90%;
+    height: 20%;
+}
+
+#favorite2 {
+    position: absolute;
+    top: 0%;
+    right: 17%;
+    font-family: "Shabnam";
+    font-size: 20px;
+
+}
+
+#slider_border12 {
+    position: absolute;
+    top: 40%;
+    right: 14%;
+    height: 180%;
+    width: 81%;
+}
+
+.prev12, .next12 {
+    position: absolute;
+    top: 28%;
+    height: 20%;
+}
+
+/* Position the "next button" to the right */
+.next12 {
+    right: -1%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev12 {
+    left: -2.5%;
+}
+
+
+.pack12, .pack22, .pack32, .pack42, .pack52, .pack62, .pack72, .pack82 {
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    border: 0.5px solid #8c8c8c;
+    width: 10%;
+    height: 60%;
+}
+
+.pack22{
+    right: 16%;
+}
+
+.pack32{
+    right: 28%;
+}
+
+.pack42{
+    right: 40%;
+}
+
+.pack52{
+    right: 52%;
+}
+
+.pack62{
+    right: 64%;
+}
+
+.pack72{
+    right: 76%;
+}
+
+.pack82{
+    right: 88%;
+}
+
+.pack_img12, .pack_img22, .pack_img32, .pack_img42, .pack_img52, .pack_img62, .pack_img72, .pack_img82 {
+    position: absolute;
+    height: 65%;
+    top: 17%;
+    right: 4%;
+}
+
+.percentage12, .percentage22, .percentage32, .percentage42, .percentage52, .percentage62, .percentage72, .percentage82 {
+    position: absolute;
+    right: -15%;
+    top: -20%;
+    color: black;
+    background-color: #ff66a3;
+    border-radius: 50%;
+    padding-bottom: 11%;
+    padding-top: 11%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.brand_name12, .brand_name22, .brand_name32, .brand_name42, .brand_name52, .brand_name62, .brand_name72, .brand_name82 {
+    position: absolute;
+    bottom: -18%;
+    right: 25%;
+    font-size: 10px;
+}
+
+.brand_name22 {
+    right: 33%;
+}
+
+.brand_name32 {
+    right: 21%;
+}
+
+.brand_name42 {
+    right: 27%;
+}
+
+.brand_name52 {
+    right: 31%;
+}
+
+.brand_name62 {
+    right: 28%;
+}
+
+.brand_name72 {
+    right: 33%;
+}
+
+.brand_name82 {
+    right: 33%;
+}
+
+.product_name12, .product_name22, .product_name32, .product_name42, .product_name52, .product_name62, .product_name72, .product_name82 {
+    position: absolute;
+    bottom: -35%;
+    right: 19%;
+    color: #cccccc;
+    font-family: "Shabnam";
+    font-size: 12px;
+}
+
+.product_name22 {
+    right: 38%;
+}
+
+.product_name32 {
+    right: 30%;
+}
+
+.product_name42 {
+    right: 35%;
+}
+
+.product_name52 {
+    right: 38%;
+}
+
+.product_name62 {
+    right: 38%;
+}
+
+.product_name72 {
+    right: 25%;
+}
+
+.product_name82 {
+    right: 33%;
+}
+
+.before_off12, .after_off12, .before_off22, .after_off22, .before_off32, .after_off32, .before_off42, .after_off42, .before_off52, .after_off52, .before_off62, .after_off62, .before_off72, .after_off72, .before_off82, .after_off82 {
+    position: absolute;
+    bottom: -42%;
+    right: 20%;
+    font-size: 10px;
+    font-family: "Shabnam-digit";
+}
+
+.after_off12, .after_off22, .after_off32, .after_off42, .after_off52, .after_off62, .after_off72, .after_off82 {
+    right: 52%;
+    color: #ff80bf;
+    bottom: -49%;
+}
+
+.before_off22, .before_off32, .before_off42, .before_off52, .before_off62, .before_off72, .before_off82 {
+    right: 25%;
+}
+
+.after_off22, .after_off32, .after_off42, .after_off52, .after_off62, .after_off72, .after_off82 {
+    right: 58%;
+}
+
+.toman12 {
+    position: absolute;
+    bottom: -60%;
+    right: 38%;
+    font-size: 10px;
+    font-family: "Shabnam";
+    color: #ff80bf;
+}
+
+.toman112 {
+    position: absolute;
+    bottom: -60%;
+    right: 30%;
+    font-size: 10px;
+    font-family: "Shabnam";
+    color: #ff80bf;
+}
+
+/*.mySlides12 {display: none}*/
+
+#banner2 {
+    position: absolute;
+    top: 178%;
+    right: 0%;
+    width: 100%;
+    height: 36%;
+}
+
+#banner2_image {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#section3 {
+    position: absolute;
+    top: 220%;
+    right: 2%;
+    width: 90%;
+    height: 20%;
+}
+
+
+#slider_border3 {
+    position: absolute;
+    top: 40%;
+    right: 14%;
+    height: 180%;
+    width: 81%;
+}
+
+.prev3, .next3 {
+    position: absolute;
+    top: 3%;
+}
+
+/* Position the "next button" to the right */
+.next3 {
+    right: -1%;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev3 {
+    left: -2.5%;
+}
+
+.brand_pack1, .brand_pack2 {
+    position: absolute;
+    top: -22%;
+    right: 8%;
+    border: 1px solid #8c8c8c;
+    height: 80%;
+    width: 40%;
+}
+
+.brand_pack2 {
+    right: 53%;
+}
+
+.brand_pack_image1, .brand_pack_image2 {
+    position: absolute;
+    top: 6%;
+    left: 4%;
+    width: 50%;
+    height: 90%;
+}
+
+#brand_pack_image3 {
+    top: 2%;
+}
+
+.brand_pack_name1, .brand_pack_name2 {
+    position: absolute;
+    top: 15%;
+    right: -10%;
+    width: 50%;
+    height: 90%;
+    font-family: "Shabnam";
+    font-size: 28px;
+    color: gray;
+}
+
+.brand_pack_button1, .brand_pack_button2 {
+    position: absolute;
+    top: 60%;
+    right: 15%;
+    height: 30px;
+    width: 85px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center;
+    font-family: "Shabnam";
+    font-size: 12px;
+    color: #e6e6e6;
+    background-color: #737373;
+}
+
+.brand_pack_button2 {
+    right: 19%;
+}
+
+/*.mySlides3 {display: none}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,643 @@
+@font-face {
+  font-family: "Shabnam";
+  src: url("shabnam/Shabnam.eot");
+  src: url("shabnam/Shabnam.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam.woff") format('woff'),
+       url("shabnam/Shabnam.ttf") format('truetype');
+  font-weight: normal;
+}
+     
+@font-face {
+  font-family: "Shabnam-Bold";
+  src: url("shabnam/Shabnam-Bold.eot");
+  src: url("shabnam/Shabnam-Bold.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam-Bold.woff") format('woff'),
+       url("shabnam/Shabnam-Bold.ttf") format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Shabnam-Light";
+  src: url("shabnam/Shabnam-Light.eot");
+  src: url("shabnam/Shabnam-Light.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/Shabnam-Light.woff") format('woff'),
+       url("shabnam/Shabnam-Light.ttf") format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Shabnam-digit";
+  src: url("shabnam/ShabnamFD.eot");
+  src: url("shabnam/ShabnamFD.eot?#iefix") format('embedded-opentype'),
+       url("shabnam/ShabnamFD.woff") format('woff'),
+       url("shabnam/ShabnamFD.ttf") format('truetype');
+  font-weight: normal;
+}
+
+.navigation{
+	position:absolute;
+	top: 2%;
+	right:0%;
+	width: 100%;
+	height: 9%;
+}
+
+#navigation_member_button, #navigation_login_button{
+	position:absolute;
+	top: 39%;
+	height: 25px;
+	width: 85px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	text-align: center;
+	font-family: "Shabnam";
+	font-size: 12px;
+}
+
+#navigation_member_button{
+	right: 8%;
+	color: 	#808080;
+	background-color: #ffffff;
+    border: 1px solid #808080;	
+}
+
+#navigation_member_button:hover {
+	color: 	blue;	    
+	border: 1px solid #4d4dff;	
+}
+
+#navigation_login_button{
+	right: 15%;
+	color: 	#ffffff;
+	background-color: #808080;
+    border-color: transparent;
+	padding-bottom: 2px;
+}
+
+#navigation_login_button:hover {
+	background-color: #4d4dff;	
+}
+
+#clothster{
+	position: absolute;
+	top: 5%;
+	right: 46%;
+	height: 27px;
+	width: 105px;
+}
+
+#search {
+	position:absolute;
+	top: 38%;
+	left: 8%;
+	background-color:white;
+	height: 23px;
+	width: 240px;
+	font-size: 9px;
+	color: black;
+	border-radius: 13px;
+	border: 1px solid #808080;
+}
+
+#search:hover{
+	border: 1px solid #4d4dff;
+}
+
+.container:hover .magnifier2 {
+  opacity: 1;
+}
+	
+.magnifier{
+	position:absolute;
+	top: 42%;
+	left: 8.75%;
+	filter: grayscale(100%);
+		
+	
+}
+
+.magnifier2 {
+	position:absolute;
+	top: 42%;
+	left: 8.75%;
+	opacity: 0;
+}
+
+#user_name, #basket, #maintain, #number {
+	position: absolute;
+	top: 45%;
+	right: 15%;
+	font-family: "Shabnam";
+	font-size: 12px;
+}
+
+#arrow_name {
+	position: absolute;
+	top: 50%;
+	right: 19.5%;
+	height: 20%;
+}
+
+#basket {
+	right: 21.5%;
+    top: 20%;
+}
+
+#bag {
+	position: absolute;
+	top: 38%;
+	right: 25.2%;
+}
+
+#maintain {
+	right: 27.2%;
+	top: 20%;
+}
+
+#number {
+	top: 33%;
+	right: 25.7%;
+	color: white;
+	background-color: #ff80bf;
+	border-radius: 50%;
+	padding-left: 3px;
+	padding-right: 3px;
+	font-family: "Shabnam-digit";
+}
+
+#maintain_image {
+	position: absolute;
+	top: 36%;
+	right: 32.9%;
+	height: 50%;
+}
+
+.footer {
+	position:absolute;
+	left: 0;
+	bottom: -70%;
+	width: 100%;
+	height: 28%;
+	background-color: #f5f5f5;
+}
+
+#head1, #head2, #head3, #head4 {
+	color: 	#696969;
+	position:absolute;
+	top: 14.5%;
+	font-family: "Shabnam";	
+}
+
+#head1 {
+	right: 16%;	
+	font-size: 14px;
+}
+
+#head2 {
+	right: 31%;	
+	font-size: 14px;
+}
+
+#head3 {
+	right: 46%;
+	font-size: 15px;
+}
+
+#head4{
+	right: 66.5%;
+	font-size: 11px;
+	top: 17%;
+}
+
+#head11, #head12, #head13, #head14, #head21, #head22 {
+	color: 	#696969;
+	position:absolute;
+	font-family: "Shabnam";
+	font-size: 12px;
+}	
+
+#head11:hover {
+	color: #4d4dff;
+}
+
+#head12:hover {
+	color: #4d4dff;
+}
+
+#head13:hover {
+	color: #4d4dff;
+}
+
+#head14:hover {
+	color: #4d4dff;
+}
+
+#head21:hover {
+	color: #4d4dff;
+}
+
+#head22:hover {
+	color: #4d4dff;
+}
+
+#head11, #head12, #head13, #head14 {
+	right: 16%;	
+}
+
+#head21, #head22 {
+	right: 31%;	
+	
+}
+#head11, #head21 {
+	top: 22.5%;
+}
+
+#head12, #head22 {
+	top: 33%;
+}
+
+#head13 {
+	top: 44%;
+}
+
+#head14 {
+	top: 55.5%;
+}
+
+.twitter1, .twitter12, .twitter2, .twitter22, .google_plus1, .google_plus12, .facebook1, .facebook12, .google_plus2, .google_plus22, .facebook2, .facebook22 {
+	position: absolute;
+}
+
+.twitter1, .twitter2 {
+	width: 35px;
+	height: 32px;
+	right: 50%;
+    filter: contrast(0%) brightness(70%);
+}
+
+.twitter12, .twitter22 {
+	width: 35px;
+	height: 32px;
+	right: 50%;
+    opacity: 0;
+}
+
+.google_plus1, .google_plus2, .google_plus12, .google_plus22 {
+	width: 33px;
+	height: 31px;
+	right: 52.9%;
+}
+
+.facebook1, .facebook12, .facebook2, .facebook22 {
+	width: 33px;
+	height: 31px;
+	right: 55.8%;
+}
+
+.twitter1, .twitter12 {
+	top: 30%;
+}
+
+.twitter2, .twitter22 {
+	top: 53.5%;
+}
+
+.google_plus1, .google_plus12, .facebook1, .facebook12{
+	top: 30.5%;
+}
+
+.google_plus2, .google_plus22, .facebook2, .facebook22{
+	top: 54.5%;
+}
+
+.google_plus1, .facebook1, .google_plus2, .facebook2{
+	filter: contrast(0%) brightness(70%);
+}
+
+.google_plus12, .facebook12, .google_plus22, .facebook22 {
+	opacity: 0;
+}
+
+.container1:hover .twitter12 {
+  opacity: 1;
+}
+
+.container2:hover .google_plus12 {
+  opacity: 1;
+}
+
+.container3:hover .facebook12 {
+  opacity: 1;
+}
+
+.container4:hover .twitter22 {
+  opacity: 1;
+}
+
+.container5:hover .google_plus22 {
+  opacity: 1;
+}
+
+.container6:hover .facebook22 {
+  opacity: 1;
+}
+
+#upCart {
+	position: absolute;
+	top:17%;
+	right: 12.5%;
+}
+
+#upCart_right {
+	position: absolute;
+	top:18%;
+	right: 0%;
+}
+
+#upCart_left {
+	position: absolute;
+	top:19.6%;
+	left: 0%;
+}
+
+#firstRow {
+	position: absolute;
+	top:48%;
+	right: 0%;
+	height: 7.5%;
+	width: 100%;
+}
+
+#firstRow_part1 {
+	position: absolute;
+	top:0%;
+	right: 0%;
+}
+
+#firstRow_part2 {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}
+
+.item_in_cart {
+	position: absolute;
+	right: 9.37%;
+	top: 55.1%;
+	width: 79.3%;
+	height: 20%;
+	border-right: 1.5px solid #999999;
+	border-left: 1.5px solid #999999;
+	border-bottom: 1.5px solid #999999;
+	
+}
+
+#item2 {
+	top: 75.4%;
+}
+
+.column_Cart1 {
+	position: absolute;
+	right: 41.8%;
+	top: -0.5%;
+	height: 102%;
+	z-index: -1;
+}
+
+.column_Cart2 {
+	position: absolute;
+	top: -0.5%;
+	right: 61.7%;
+	height: 102%;
+	z-index: -1;
+}
+
+.column_Cart3 {
+	position: absolute;
+	top: 0%;
+	right: 96.3%;
+	z-index: -1;
+}
+
+.cart_item_image {
+	position: absolute;
+	width: 8%;
+	height: 84%;
+	top: 7%;
+	right: 2%;
+	border: 1px solid #999999;
+}
+
+.cart_item_brand_name {
+	position: absolute;
+	top: 7%;
+	right: 11.5%;
+	font-family: "Shabnam";
+	font-size: 15px;
+	color: #737373;
+}
+
+.cart_item_product_name1, .cart_item_product_name2, .cart_item_product_name3, .cart_item_product_color, .cart_item_product_color_value, .cart_item_product_size, .cart_item_product_size_value, .cart_item_product_code, .cart_item_product_code_value {
+	position: absolute;
+	top: 12%;
+	right: 11.5%;
+	font-family: "Shabnam";
+	font-size: 13px;
+	color: #999999;
+}
+
+.cart_item_product_name2 {
+	right: 17.5%;	
+}
+
+.cart_item_product_name3 {
+	right: 23.5%;	
+}
+
+.cart_item_product_color, .cart_item_product_color_value {
+	top: 28%;
+	font-size: 11px;
+}
+
+.cart_item_product_color_value, .cart_item_product_size_value {
+	right: 13.75%;
+}
+
+.cart_item_product_size, .cart_item_product_size_value {
+	top: 40%;
+	font-size: 11px;
+}
+
+.cart_item_product_code, .cart_item_product_code_value {
+	top: 54%;
+	font-size: 11px;
+}
+
+.cart_item_product_code_value {
+	right: 14.5%;
+}
+
+.count_number {
+	position: absolute;
+	right: 52%;
+	top: 20%;
+	font-family:"Shabnam-digit";
+	font-size: 20px;
+	color: #737373;
+}
+
+.count_plus {
+	position: absolute;
+	right: 47%;
+	top: 32%;
+}
+
+.count_minus {
+	position: absolute;
+	right: 54.5%;
+	top: 35%;
+}
+
+.item_cost {
+	position: absolute;
+	right: 65%;
+	top: 3%;
+	font-family: "Shabnam-digit";
+	font-size: 15px;
+	color: #737373; 
+}
+
+.item_cost_value {
+	right: 86.5%;
+}
+
+.toman {
+	right: 90%;
+}
+
+.pink {
+	color: #ff80bf;
+}
+
+.row2 {
+	top: 19%;
+}
+
+.row3 {
+	top: 60%;	
+}
+
+.table_line {
+	position: absolute;
+	right: 64.2%;
+	top: 62%;	
+}
+
+#save_button {
+	position: absolute;
+	top: -15%;
+	left: 15%;
+}
+
+#orderForm {
+	position: absolute;
+	top: 110%;
+	right: 5%;
+	width: 100%;
+	height: 80%;
+}
+
+#price, #price1, #p1, #pp1, #n1, #nn1 {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	font-size: 12px;
+	font-family: "Shabnam";
+	dir: rtl;
+}
+
+#p1 {
+	right: 25%;
+}
+
+#price1, #pp1, #nn1 {
+	right: 8%;
+	top: 2%;
+}
+
+#n1 {
+	right: 50%;
+}
+
+#nn1 {
+	right: 58%;
+}
+
+#pp1 {
+	right: 33%;
+}
+
+#addresss, #address1, #p2, #pp2, #n2, #nn2 {
+	position: absolute;
+	top: 8%;
+	right: 0%;
+	font-size: 12px;
+	font-family: "Shabnam";
+	dir: rtl;
+}
+
+#address1, #pp2, #nn2{
+	right: 8%;
+	top: 10%;
+}
+
+#n2{
+	right: 50%;
+}
+
+#nn2{
+	right: 58%;
+}
+
+#p2{
+	right: 25%;
+}
+
+#pp2 {
+	right: 33%;
+}
+
+#payment, #payment1, #p3, #pp3, #n3, #nn3 {
+	position: absolute;
+	top: 16%;
+	right: 0%;
+	font-size: 12px;
+	font-family: "Shabnam";
+	dir: rtl;
+}
+
+#payment1, #pp3, #nn3{
+	right: 8%;
+	top: 18%;
+}
+
+#n3 {
+	right: 50%;
+}
+#nn3 {
+	right: 58%;
+}
+
+#p3 {
+	right: 25%;
+}
+
+#pp3 {
+	right: 33%;
+}
+
+
+
+
